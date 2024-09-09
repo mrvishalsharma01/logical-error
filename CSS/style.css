@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+}
+#heading-portion{
+    background-color:#7777AA;
+    height: 150px;
+    width:100%;
+
+}
+#heading-portion h3{
+    padding-top:20px;
+    padding-left: 150px;
+    color: white;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+    
+}
+
+.nav-bar{
+    background: red;
+    list-style-type: none;
+    /* display: inline; */
+}

@@ -4,20 +4,57 @@
 }
 #heading-portion{
     background-color:#7777AA;
-    height: 150px;
+    height: 110px;
     width:100%;
 
 }
-#heading-portion h3{
+#heading-portion h4{
     padding-top:20px;
     padding-left: 150px;
     color: white;
-    font-family: Roboto, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+    /* font-family:  Helvetica, Arial, sans-serif; */
     
 }
 
-.nav-bar{
-    background: red;
-    list-style-type: none;
-    /* display: inline; */
+.navbar {
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: space-between;
+    top: 0px;
+    background-blend-mode: darken;
+    background-size: cover;
+    color: white;
+    padding: 10px 20px;
+}
+.nav-list {
+    display: flex;
+    list-style: none;
+    /* background-color: red; */
+    width: 100%;
+    height:50px ;
+    padding-top: 30px;
+    padding-left: 130px;
+}
+
+.nav-list li {
+    margin-right: 20px;
+ 
+}
+
+.nav-list li:last-child {
+    margin-right: 0;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+
+}
+
+.nav-list li a:hover {
+    color: #ffd700;
+    /* Change the color on hover */
 }
